@@ -1,0 +1,15 @@
+config.py: Holds all settings, constants, and hyperparameters in one place.
+
+data_loader.py: Exclusively handles reading raw data (I/O).
+
+data_splitter.py: Exclusively handles splitting the data into training and testing sets.
+
+feature_engineer.py: Exclusively handles transformations, scaling, and feature creation.
+
+trainer.py: Initializes and fits the model.
+
+persister.py: Handles saving the trained model and the preprocessing tools (like Scalers).
+
+main.py: The central execution script that orchestrates the entire workflow.
+
+dt,AverageTemperature,AverageTemperatureUncertainty,City,Country,Latitude,Longitude
